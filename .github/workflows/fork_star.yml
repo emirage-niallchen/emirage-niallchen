@@ -17,4 +17,4 @@ jobs:
         uses: ouuan/This-repo-has-x-stars-y-forks-action@v2
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          template: "Peter-JXL's profile with <starCount> stars and <forkCount> forks 🎉"
+          template: "emirage's profile with <starCount> stars and <forkCount> forks 🎉"

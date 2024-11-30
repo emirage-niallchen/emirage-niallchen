@@ -1,0 +1,8 @@
+# 忽略 github-metrics.svg 文件
+github-metrics.svg
+
+# 忽略 assets 目录
+assets/
+
+# 忽略 profile-3d-contrib 目录
+profile-3d-contrib/

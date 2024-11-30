@@ -1,3 +1,47 @@
+
+
+#  🙋 Hi Bro
+
+<table>
+  
+<tr><td>
+
+### 🤺 About Me
+
+<!-- <img align="right" width="88" src="https://avatars.githubusercontent.com/u/45090349?v=4" /> -->
+
+<p>&emsp;&emsp;I am Emirage, a passionate enthusiast of programming, literature, philosophy, and fitness.</p>
+<p>&emsp;&emsp;In this era, I aspire to be a digital nomad, embracing freedom, landscapes, love, and the connections that bind me to the world.</p>
+<p>&emsp;&emsp; My Blog：<a href="https://blog.artithm.com/" target="_blank"> Artithm </a>  a space where I share my thoughts and personal philosophy.</p>
+
+
+  <!-- for beauty 留个空行好看点 -->
+  <div>&nbsp;</div>
+
+</td></tr>
+
+
+
+
+<!-- </tr></td> -->
+<!-- ## 🏢 Work Experience -->
+<!-- <img align="right" width="200" src="https://cdn.jsdelivr.net/gh/Peter-JXL/Peter-JXL@main/assets/images/GRCBank.png" /> -->
+<!-- - [广州农商银行](https://www.grcbank.com/) &emsp; 📌 2020-07 —— 2023-07 -->
+
+  <!-- - 工作岗位：系统开发岗 -->
+  <!-- - 工作内容：参与网银开发与维护工作 -->
+<!-- <img align="right" width="200" src="https://cdn.jsdelivr.net/gh/Peter-JXL/Peter-JXL@main/assets/images/Inspur.PNG" /> -->
+<!-- - [浪潮](https://www.inspur.com/)   📌 2019-07 —— 2020-02 -->
+  <!-- - 工作岗位：实习生 -->
+  <!-- - 工作内容：参与软件开发 -->
+  <!-- for beauty 留个空行好看点 -->
+  <!-- <div>&nbsp;</div> -->
+<!-- </td></tr> -->
+
+
+
+</table>
+
 <div align="center">
 
   <!-- knock code pictures 敲代码的图片 -->
@@ -27,53 +71,10 @@
 
 </div>
 
-#  🙋 Hi Bro
-
-<table>
-  
-<tr><td>
-
-### 🤺 About Me
-
-<!-- <img align="right" width="88" src="https://avatars.githubusercontent.com/u/45090349?v=4" /> -->
-
-<p>&emsp;&emsp;I am Emirage, a passionate enthusiast of programming, literature, philosophy, and fitness.</p>
-<p>&emsp;&emsp;In this era, I aspire to be a digital nomad, embracing freedom, landscapes, love, and the connections that bind me to the world.</p>
-<p>&emsp;&emsp; My Blog：<a href="https://blog.artithm.com/" target="_blank"> Artithm </a>  a space where I share my thoughts and personal philosophy.</p>
-
-
-  <!-- for beauty 留个空行好看点 -->
-  <div>&nbsp;</div>
-
-</td></tr>
-
-<tr><td>
-
-## 🏢 Work Experience
-
-<img align="right" width="200" src="https://cdn.jsdelivr.net/gh/Peter-JXL/Peter-JXL@main/assets/images/GRCBank.png" />
-
-- [广州农商银行](https://www.grcbank.com/) &emsp; 📌 2020-07 —— 2023-07
-
-  - 工作岗位：系统开发岗
-  - 工作内容：参与网银开发与维护工作
-
-<img align="right" width="200" src="https://cdn.jsdelivr.net/gh/Peter-JXL/Peter-JXL@main/assets/images/Inspur.PNG" />
-
-- [浪潮](https://www.inspur.com/)   📌 2019-07 —— 2020-02
-
-  - 工作岗位：实习生
-  - 工作内容：参与软件开发
-
-
-  <!-- for beauty 留个空行好看点 -->
-  <div>&nbsp;</div>
-  
-</td></tr>
 
 
 
-</table>
+
 
 ## 📊 GitHub 数据统计
 

@@ -83,21 +83,39 @@
 
 
 <!-- metrics 基础资料 -->
-<img src="/github-metrics.svg" />
+<!-- <img src="/github-metrics.svg" /> -->
 
 <!-- GitHub 数据统计 -->
 
-<img src= "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=tokyonight" /> 
+<!-- <img src= "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight" /> 
 
-<img src  = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=tokyonight" />
+<img src  = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight" /> -->
 
 
 <!-- github-readme-streak-stats 连续提交代码天数记录 -->
-<picture>
+<!-- <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=light&hide_border=true" />
   <img src="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=cobalt&hide_border=true" />
-</picture>
+</picture> -->
 
+<!-- metrics 基础资料 -->
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="/github-metrics.svg" />
+</div>
+
+<!-- GitHub 数据统计 -->
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight" />
+</div>
+
+<!-- github-readme-streak-stats 连续提交代码天数记录 -->
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=light&hide_border=true" />
+    <img src="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=cobalt&hide_border=true" />
+  </picture>
+</div>
 
 
 <!-- GitHub Activity Graph GitHub 活动图 -->

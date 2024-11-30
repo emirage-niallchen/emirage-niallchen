@@ -106,9 +106,9 @@
 <!-- GitHub 数据统计 -->
 <div align="center" gap: 10px;">
   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight&langs_count=10" />
 </div>
-
+![Emirage's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight&langs_count=10")
 <!-- github-readme-streak-stats 连续提交代码天数记录 -->
 <div align="center" gap: 10px;">
   <picture>

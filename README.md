@@ -86,7 +86,7 @@
   </div>
 
   <!-- 右边的博客列表 -->
-  <div>
+  <div align="right">
     <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="Blog Stats"/>
     <br>
     <span>📕 &nbsp;Latest Blog Posts</span>

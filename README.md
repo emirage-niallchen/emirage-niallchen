@@ -80,15 +80,28 @@
 
 
 <div style="display: flex; align-items: center;">
-    <img src="/github-metrics.svg" style="margin-right: 20px;"/>
-    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" style="margin-right: 20px;"/>
-    <div style="display: inline-block;">
+  <img src="/github-metrics.svg" style="margin-right: 20px;"/>
+   <div style="margin-right: 20px;">
+     <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" />
         📕 &nbsp;Latest Blog Posts
         <br>
         <!-- BLOG-POST-LIST:START -->
         - [Hello Halo](http://localhost:8090/archives/hello-halo)
         <!-- BLOG-POST-LIST:END -->
-    </div>
+   </div>
+</div>
+
+
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <img src="/github-metrics.svg" style="margin-right: 20px;"/>
+  <div style="display: inline-block; margin-right: 20px;">
+    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" style="margin-bottom: 10px;"/>
+    📕 &nbsp;Latest Blog Posts
+    <br>
+    <!-- BLOG-POST-LIST:START -->
+    - [Hello Halo](http://localhost:8090/archives/hello-halo)
+    <!-- BLOG-POST-LIST:END -->
+  </div>
 </div>
 
 <!-- GitHub 数据统计 -->

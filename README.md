@@ -62,6 +62,12 @@
 
 ## 📊 GitHub Insights
 
+<img src="/github-metrics.svg" />
+📕 &nbsp;Latest Blog Posts
+<br>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 
 <!-- metrics 基础资料 -->
 <div align="center" 10px;">
@@ -73,34 +79,26 @@
 📕 &nbsp;Latest Blog Posts
 <br>
 <!-- BLOG-POST-LIST:START -->
-- [Hello Halo](https://blog.artithm.com/archives/hello-halo)
 <!-- BLOG-POST-LIST:END -->
 </div>
 </div>
 
-
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-
-<div align="right">
-    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="Blog Stats"/>
-    <br>
-    <span>📕 &nbsp;Latest Blog Posts</span>
-    <br>
-    <!-- 博客文章列表 -->
-    <div>
-<!-- BLOG-POST-LIST:START -->
-- [Hello Halo](https://blog.artithm.com/archives/hello-halo)
-<!-- BLOG-POST-LIST:END -->
-    </div>
+<div style="display: flex; justify-content: center; align-items: flex-start;">
+  <!-- 个人信息部分 -->
+  <div style="margin-right: 20px;">
+    <img src="/github-metrics.svg" alt="个人信息" />
   </div>
-  <!-- 左边的图片 -->
-  <div style="flex-shrink: 0;">
-    <img src="/github-metrics.svg" alt="GitHub Metrics"/>
-  </div>
-
-  <!-- 右边的博客列表 -->
   
+  <!-- 博客列表部分 -->
+  <div>
+    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
+    <p>📕 &nbsp;Latest Blog Posts</p>
+    <br>
+    <!-- BLOG-POST-LIST:START -->
+    <!-- BLOG-POST-LIST:END -->
+  </div>
 </div>
+
 
 
 <!-- GitHub 数据统计 -->

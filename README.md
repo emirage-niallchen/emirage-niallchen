@@ -65,8 +65,7 @@
 <img src="/github-metrics.svg" />
 📕 &nbsp;Latest Blog Posts
 <br>
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><tr><td>Hello Halo</td><td>https://blog.artithm.com/archives/hello-halo</td></tr><!-- BLOG-POST-LIST:END -->
 
 
 <!-- metrics 基础资料 -->

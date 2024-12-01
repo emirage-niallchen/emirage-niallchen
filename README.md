@@ -80,11 +80,9 @@
 </div>
 
 <div align="center" gap: 10px;">
-    <img src="https://stats.artithm.com/api/leetcode?username=emirage-niallchen&cn=true&theme=dark" />
+    <img src="https://stats.artithm.com/api/leetcode?username=emirage&cn_username=emirage&theme=dark" />
     <img src="https://stats.artithm.com/api/github?username=emirage-niallchen&theme=dark" />
-    <img src="https://stats.artithm.com/api/leetcode?username=emirage&theme=dark" />
-    <img src="https://stats.artithm.com/api/leetcode?username=emirage" />
-    <img src="https://stats.artithm.com/api/leetcode?username=ni-yao-chi-nai-you-ma" />
+
     
 </div>
 

@@ -108,7 +108,7 @@
 📕 &nbsp;Latest Blog Posts
 <br>
 <!-- BLOG-POST-LIST:START -->
-- [Hello Halo](http://localhost:8090/archives/hello-halo)
+- [Hello Halo](https://blog.artithm.com/archives/hello-halo)
 <!-- BLOG-POST-LIST:END -->
 </div>
 

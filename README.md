@@ -108,10 +108,14 @@
 </span>
 </div>
 
+&nbsp;**Latest Blog Posts**
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 <!-- GitHub 数据统计 -->
 <div align="center" gap: 10px;">
   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight&langs_count=6" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight" />
 </div>
 <!-- github-readme-streak-stats 连续提交代码天数记录 -->
 <div align="center" gap: 10px;">
@@ -139,7 +143,7 @@
   </tr>
 </table>
 <!-- 打字出现的动态特性 -->
-![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text)
+<!-- ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text) -->
 <!-- profile-3d-contrib 3D 贡献图-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/profile-3d-contrib/profile-night-rainbow.svg" />

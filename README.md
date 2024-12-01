@@ -79,30 +79,29 @@
 </div>
 
 
-<div style="display: flex; align-items: center;">
-  <img src="/github-metrics.svg" style="margin-right: 20px;"/>
-   <div style="margin-right: 20px;">
-     <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" />
-        📕 &nbsp;Latest Blog Posts
-        <br>
-        <!-- BLOG-POST-LIST:START -->
-        - [Hello Halo](http://localhost:8090/archives/hello-halo)
-        <!-- BLOG-POST-LIST:END -->
-   </div>
-</div>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <!-- 左边的图片 -->
+  <div style="flex-shrink: 0;">
+    <img src="/github-metrics.svg" alt="GitHub Metrics"/>
+  </div>
 
-
-<div style="display: flex; align-items: center; flex-wrap: wrap;">
-  <img src="/github-metrics.svg" style="margin-right: 20px;"/>
-  <div style="display: inline-block; margin-right: 20px;">
-    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" style="margin-bottom: 10px;"/>
-    📕 &nbsp;Latest Blog Posts
+  <!-- 右边的博客列表 -->
+  <div>
+    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="Blog Stats"/>
     <br>
-    <!-- BLOG-POST-LIST:START -->
-    - [Hello Halo](http://localhost:8090/archives/hello-halo)
-    <!-- BLOG-POST-LIST:END -->
+    <span>📕 &nbsp;Latest Blog Posts</span>
+    <br>
+    <!-- 博客文章列表 -->
+    <div>
+      <!-- BLOG-POST-LIST:START -->
+      <ul>
+        <li><a href="http://localhost:8090/archives/hello-halo">Hello Halo</a></li>
+      </ul>
+      <!-- BLOG-POST-LIST:END -->
+    </div>
   </div>
 </div>
+
 
 <!-- GitHub 数据统计 -->
 <div align="center" gap: 10px;">

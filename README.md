@@ -100,12 +100,18 @@
 
 <!-- metrics 基础资料 -->
 <div align="center" 10px;">
+<div>
   <img src="/github-metrics.svg" />
-<!-- 📕 &nbsp;**Latest Blog Posts** -->
-<span>📕 &nbsp;**Latest Blog Posts**
+</div>
+<div>
+<img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili"/>
+📕 &nbsp;Latest Blog Posts
+<br>
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
-</span>
+</div>
+
+
 </div>
 
 &nbsp;**Latest Blog Posts**
@@ -128,7 +134,7 @@
 <div align="center" gap: 10px;">
     <img src="https://stats.artithm.com/api/leetcode?username=emirage-niallchen&cn=true&theme=dark" />
     <img src="https://stats.artithm.com/api/github?username=emirage-niallchen&theme=dark" />
-    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili"/>
+    
     <!-- <img src="https://stats.justsong.cn/api/bilibili?username=quanpeng&theme=dark" /> -->
 </div>
 <!-- GitHub Activity Graph GitHub 活动图 -->

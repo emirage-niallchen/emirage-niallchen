@@ -61,43 +61,15 @@
 
 
 ## 📊 GitHub Insights
-
-<img src="/github-metrics.svg" />
-📕 &nbsp;Latest Blog Posts
-<br>
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-
 <!-- metrics 基础资料 -->
-<div align="center" 10px;">
-<div>
-  <img src="/github-metrics.svg" />
-</div>
-<div>
-<img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili"/>
-📕 &nbsp;Latest Blog Posts
+<img src="/github-metrics.svg" />
+📕 &nbsp;Latest Blog Posts&nbsp;&nbsp;<img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili"/>
 <br>
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
-</div>
-</div>
 
-<div style="display: flex; justify-content: center; align-items: flex-start;">
-  <!-- 个人信息部分 -->
-  <div style="margin-right: 20px;">
-    <img src="/github-metrics.svg" alt="个人信息" />
-  </div>
-  
-  <!-- 博客列表部分 -->
-  <div>
-    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
-    <p>📕 &nbsp;Latest Blog Posts</p>
-    <br>
-    <!-- BLOG-POST-LIST:START -->
-    <!-- BLOG-POST-LIST:END -->
-  </div>
-</div>
+
+
 
 
 

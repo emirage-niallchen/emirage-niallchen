@@ -80,26 +80,26 @@
 
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <!-- 左边的图片 -->
-  <div style="flex-shrink: 0;">
-    <img src="/github-metrics.svg" alt="GitHub Metrics"/>
-  </div>
 
-  <!-- 右边的博客列表 -->
-  <div align="right">
+<div align="right">
     <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="Blog Stats"/>
     <br>
     <span>📕 &nbsp;Latest Blog Posts</span>
     <br>
     <!-- 博客文章列表 -->
     <div>
-      <!-- BLOG-POST-LIST:START -->
-      <ul>
-        <li><a href="http://localhost:8090/archives/hello-halo">Hello Halo</a></li>
-      </ul>
-      <!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Hello Halo](https://blog.artithm.com/archives/hello-halo)
+<!-- BLOG-POST-LIST:END -->
     </div>
   </div>
+  <!-- 左边的图片 -->
+  <div style="flex-shrink: 0;">
+    <img src="/github-metrics.svg" alt="GitHub Metrics"/>
+  </div>
+
+  <!-- 右边的博客列表 -->
+  
 </div>
 
 

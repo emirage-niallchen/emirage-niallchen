@@ -65,8 +65,8 @@
 <!-- metrics 基础资料 -->
 <img src="/github-metrics.svg" />
     <div style="display: flex; align-items: center;">
-      <p>📕 &nbsp;Latest Blog Posts</p>
-      <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" style="margin-left: 10px;" />
+      <span>📕 &nbsp;Latest Blog Posts</span>
+      <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
     </div>
 <!-- BLOG-POST-LIST:START --><tr><td>Hello Halo</td><td>https://blog.artithm.com/archives/hello-halo</td></tr><!-- BLOG-POST-LIST:END -->
 

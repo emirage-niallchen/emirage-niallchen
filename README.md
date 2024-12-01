@@ -45,24 +45,6 @@
 
 <div align="center">
 
-  <!-- knock code pictures 敲代码的图片 -->
-  <!-- <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
-    <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-  </picture> -->
-
-  <!-- for beauty 留个空行好看点 -->
-  
-  <!-- <div>&nbsp;</div> -->
-
-  
-
-<!-- profile logo 个人资料徽标 -->
-  <!-- <div>
-    <a href="https://www.peterjxl.com/"><img src="https://img.shields.io/badge/Website-博客-8c36db" /></a>&emsp;
-    <img src="https://komarev.com/ghpvc/?username=emirage-niallchen&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
-  </div> -->
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 <picture>
@@ -81,23 +63,6 @@
 ## 📊 GitHub Insights
 
 
-
-<!-- metrics 基础资料 -->
-<!-- <img src="/github-metrics.svg" /> -->
-
-<!-- GitHub 数据统计 -->
-
-<!-- <img src= "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=emirage-niallchen&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight" /> 
-
-<img src  = "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=emirage-niallchen&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight" /> -->
-
-
-<!-- github-readme-streak-stats 连续提交代码天数记录 -->
-<!-- <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=light&hide_border=true" />
-  <img src="https://streak-stats.demolab.com/?user=emirage-niallchen&theme=cobalt&hide_border=true" />
-</picture> -->
-
 <!-- metrics 基础资料 -->
 <div align="center" 10px;">
 <div>
@@ -111,13 +76,20 @@
 - [Hello Halo](http://localhost:8090/archives/hello-halo)
 <!-- BLOG-POST-LIST:END -->
 </div>
-
-
 </div>
 
-&nbsp;**Latest Blog Posts**
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+
+<div style="display: flex; align-items: center;">
+    <img src="/github-metrics.svg" style="margin-right: 20px;"/>
+    <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" style="margin-right: 20px;"/>
+    <div style="display: inline-block;">
+        📕 &nbsp;Latest Blog Posts
+        <br>
+        <!-- BLOG-POST-LIST:START -->
+        - [Hello Halo](http://localhost:8090/archives/hello-halo)
+        <!-- BLOG-POST-LIST:END -->
+    </div>
+</div>
 
 <!-- GitHub 数据统计 -->
 <div align="center" gap: 10px;">
@@ -136,7 +108,6 @@
     <img src="https://stats.artithm.com/api/leetcode?username=emirage-niallchen&cn=true&theme=dark" />
     <img src="https://stats.artithm.com/api/github?username=emirage-niallchen&theme=dark" />
     
-    <!-- <img src="https://stats.justsong.cn/api/bilibili?username=quanpeng&theme=dark" /> -->
 </div>
 <!-- GitHub Activity Graph GitHub 活动图 -->
 <table>
@@ -149,11 +120,3 @@
       </picture>
   </tr>
 </table>
-<!-- 打字出现的动态特性 -->
-<!-- ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text) -->
-<!-- profile-3d-contrib 3D 贡献图-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="/profile-3d-contrib/profile-gitblock.svg" />
-  <img src="/profile-night-rainbow.svg" />
-</picture>

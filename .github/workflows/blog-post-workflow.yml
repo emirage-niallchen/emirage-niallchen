@@ -17,4 +17,4 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://blog.artithm.com/rss.xml"
-          template: "<tr><td>$title</td><td>$url</td></tr>"
+          template: "<tr><td>$title</td><td>$url</td></tr><br>"

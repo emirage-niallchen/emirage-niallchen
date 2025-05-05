@@ -90,7 +90,7 @@
       <span>📕 &nbsp;Latest Blog Posts</span>
       <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
 </div>
-<!-- BLOG-POST-LIST:START --><tr><td>数据备份存储方案</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><tr><td>萨特的“他者地狱”</td><td>https://blog.artithm.com/archives/sa-te-de-ta-zhe-di-yu</td></tr><br><tr><td>游黄山</td><td>https://blog.artithm.com/archives/you-huang-shan</td></tr><br><tr><td>艾尔登法环，玩过的游戏</td><td>https://blog.artithm.com/archives/ai-er-deng-fa-huan-wan-guo-de-you-xi</td></tr><br><tr><td>论“弗洛伊德主义”</td><td>https://blog.artithm.com/archives/lun-fu-luo-yi-de-zhu-yi</td></tr><br><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><tr><td>老炮儿的操作系统巡礼</td><td>https://blog.artithm.com/archives/lao-pao-er-de-cao-zuo-xi-tong-xun-li</td></tr><br><tr><td>数据备份存储方案</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><tr><td>萨特的“他者地狱”</td><td>https://blog.artithm.com/archives/sa-te-de-ta-zhe-di-yu</td></tr><br><tr><td>游黄山</td><td>https://blog.artithm.com/archives/you-huang-shan</td></tr><br><tr><td>艾尔登法环，玩过的游戏</td><td>https://blog.artithm.com/archives/ai-er-deng-fa-huan-wan-guo-de-you-xi</td></tr><br><!-- BLOG-POST-LIST:END -->
 
 
 <!-- GitHub Activity Graph GitHub 活动图 -->

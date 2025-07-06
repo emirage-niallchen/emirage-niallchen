@@ -90,7 +90,7 @@
       <span>📕 &nbsp;Latest Blog Posts</span>
       <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
 </div>
-<!-- BLOG-POST-LIST:START --><tr><td>橘猫陈皮（其一）</td><td>https://blog.artithm.com/archives/ju-mao-chen-pi-qi-yi</td></tr><br><tr><td>我的日常工作流</td><td>https://blog.artithm.com/archives/wo-de-ri-chang-gong-zuo-liu</td></tr><br><tr><td>老炮儿的操作系统巡礼</td><td>https://blog.artithm.com/archives/lao-pao-er-de-cao-zuo-xi-tong-xun-li</td></tr><br><tr><td>数据备份存储方案</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><tr><td>萨特的“他者地狱”</td><td>https://blog.artithm.com/archives/sa-te-de-ta-zhe-di-yu</td></tr><br><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><tr><td>简历平台项目，TrackResume</td><td>https://blog.artithm.com/archives/jian-li-ping-tai-xiang-mu-trackresume</td></tr><br><tr><td>橘猫陈皮（其一）</td><td>https://blog.artithm.com/archives/ju-mao-chen-pi-qi-yi</td></tr><br><tr><td>我的日常工作流</td><td>https://blog.artithm.com/archives/wo-de-ri-chang-gong-zuo-liu</td></tr><br><tr><td>老炮儿的操作系统巡礼</td><td>https://blog.artithm.com/archives/lao-pao-er-de-cao-zuo-xi-tong-xun-li</td></tr><br><tr><td>数据备份存储方案</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><!-- BLOG-POST-LIST:END -->
 
 
 <!-- GitHub Activity Graph GitHub 活动图 -->

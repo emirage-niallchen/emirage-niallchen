@@ -90,7 +90,7 @@
       <span>📕 &nbsp;Latest Blog Posts</span>
       <img src="https://stats.artithm.com/api/website/?url=https://blog.artithm.com/&style=flat&logo=bilibili" alt="博客统计" />
 </div>
-<!-- BLOG-POST-LIST:START --><tr><td>雨中佳豪</td><td>https://blog.artithm.com/archives/yu-zhong-jia-hao</td></tr><br><tr><td>橘猫CP-清平乐-小混账</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><tr><td>我是一只大猫</td><td>https://blog.artithm.com/archives/wo-shi-yi-zhi-da-mao</td></tr><br><tr><td>陈皮-其四</td><td>https://blog.artithm.com/archives/yang-guang-xia-kan-mao</td></tr><br><tr><td>关于站点迁移</td><td>https://blog.artithm.com/archives/guan-yu-zhan-dian-qian-yi</td></tr><br><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><tr><td>PVE池化，HomeLab的退坑退休方案</td><td>https://blog.artithm.com/archives/pvechi-hua-homelabde-tui-keng-tui-xiu-fang-an</td></tr><br><tr><td>雨中佳豪</td><td>https://blog.artithm.com/archives/yu-zhong-jia-hao</td></tr><br><tr><td>橘猫CP-清平乐-小混账</td><td>https://blog.artithm.com/archives/wei-ming-ming-wen-zhang</td></tr><br><tr><td>我是一只大猫</td><td>https://blog.artithm.com/archives/wo-shi-yi-zhi-da-mao</td></tr><br><tr><td>陈皮-其四</td><td>https://blog.artithm.com/archives/yang-guang-xia-kan-mao</td></tr><br><!-- BLOG-POST-LIST:END -->
 
 
 <!-- GitHub Activity Graph GitHub 活动图 -->

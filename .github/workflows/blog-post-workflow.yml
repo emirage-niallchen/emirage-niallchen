@@ -1,20 +1,36 @@
 name: Latest blog post workflow
+
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 */2 * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+  schedule:
+    - cron: '0 */2 * * *' # Runs every two hours
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+    paths:
+      - README.md
+      - .github/workflows/blog-post-workflow.yml
+
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: write
+
+concurrency:
+  group: blog-posts-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Pull in blog's posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://blog.artithm.com/rss.xml"
-          template: "<tr><td>$title</td><td>$url</td></tr><br>"
+          feed_list: "https://artithm.com/index.xml"
+          max_post_count: "5"
+          disable_sort: "false"
+          sort_order: "desc"
+          retry_count: "3"
+          retry_wait_time: "5"

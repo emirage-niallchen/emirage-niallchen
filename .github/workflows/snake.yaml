@@ -1,42 +1,59 @@
-name: generate animation
+name: Generate contribution snake
 
 on:
-  # run automatically every 2 hours
   schedule:
-    - cron: "0 */2 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "0 */2 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
-    branches:
-    - master
-  
-  
+    branches: [main, master]
+    paths:
+      - .github/workflows/snake.yaml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-output
+  cancel-in-progress: false
 
 jobs:
   generate:
-    permissions: 
-      contents: write
+    # Match the Metrics workflow so its environment-scoped token is available.
+    environment:
+      name: production
     runs-on: ubuntu-latest
     timeout-minutes: 5
-  
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate light and dark snakes
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # The repository token can return an empty contribution calendar.
+          github_token: ${{ secrets.METRICS_TOKEN || github.token }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-    
-    
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Check that both snakes move before publishing
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          for name in ("github-contribution-grid-snake.svg", "github-contribution-grid-snake-dark.svg"):
+              path = Path("dist") / name
+              root = ET.parse(path).getroot()
+              css = "".join(element.text or "" for element in root.iter("{http://www.w3.org/2000/svg}style"))
+              frames = re.findall(r"@keyframes\s+s\d+\s*\{((?:[^{}]|\{[^{}]*\})*)\}", css)
+              moving = any(len(set(re.findall(r"translate\(([^)]+)\)", frame))) > 1 for frame in frames)
+              if not moving:
+                  raise SystemExit(f"{path}: no moving snake; check METRICS_TOKEN access to contribution data. Publication stopped.")
+              print(f"{path}: moving snake verified")
+          PY
+
+      - name: Publish snakes to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

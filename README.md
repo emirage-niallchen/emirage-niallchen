@@ -8,8 +8,6 @@
 
 ### 🤺 About Me
 
-<!-- <img align="right" width="88" src="https://avatars.githubusercontent.com/u/45090349?v=4" /> -->
-
 <p>&emsp;&emsp;I am Emirage, a passionate enthusiast of programming, literature, philosophy, and fitness.</p>
 <p>&emsp;&emsp;In this era, I aspire to be a digital nomad, embracing freedom, landscapes, love, and the connections that bind me to the world.</p>
 <p>&emsp;&emsp; My Blog：<a href="https://artithm.com/" target="_blank"> Artithm </a>  a space where I share my thoughts and personal philosophy.</p>

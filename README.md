@@ -86,8 +86,8 @@
 
 ## 📕 Latest Blog Posts
 
-[![Artithm response time](https://stats.artithm.com/api/website/?url=https%3A%2F%2Fartithm.com%2F&style=flat&logo=cloudflare)](https://artithm.com/)
-[![RSS feed](https://img.shields.io/badge/RSS-subscribe-FFA500?logo=rss&logoColor=white)](https://artithm.com/index.xml)
+<a href="https://artithm.com/"><img src="./profile/blog-badge.svg" height="28" alt="Artithm's personal blog with profile avatar" /></a>
+<a href="https://artithm.com/index.xml"><img src="https://img.shields.io/badge/RSS-subscribe-FFA500?logo=rss&amp;logoColor=white" height="28" alt="Subscribe to Artithm via RSS" /></a>
 
 <!-- BLOG-POST-LIST:START -->
 - [幻人](https://artithm.com/archives/huan-ren/)

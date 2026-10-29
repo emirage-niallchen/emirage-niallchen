@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="28" viewBox="0 0 148 28" role="img" aria-labelledby="title">
+  <title id="title">Artithm's personal blog</title>
+  <defs>
+    <clipPath id="badge"><rect width="148" height="28" rx="4"/></clipPath>
+    <clipPath id="avatar"><rect x="4" y="3" width="22" height="22" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#badge)">
+    <path fill="#24283b" d="M0 0h108v28H0z"/>
+    <path fill="#7aa2f7" d="M108 0h40v28h-40z"/>
+  </g>
+  <image x="4" y="3" width="22" height="22" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar)" xlink:href="data:image/jpeg;base64,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"/>
+  <g font-family="Verdana,DejaVu Sans,sans-serif" text-rendering="geometricPrecision">
+    <text x="35" y="18.5" fill="#c0caf5" font-size="13" font-weight="600">Artithm</text>
+    <text x="128" y="18.5" fill="#1a1b26" font-size="11" font-weight="600" text-anchor="middle">Blog</text>
+  </g>
+</svg>

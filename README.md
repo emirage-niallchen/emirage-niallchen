@@ -29,8 +29,7 @@
 
 ### 最近写的
 
-<!-- BLOG-POST-LIST:START -->
-- `2026-10-07` · [幻人](https://artithm.com/archives/huan-ren/)
+<!-- BLOG-POST-LIST:START -->- `2026-10-07` · [幻人](https://artithm.com/archives/huan-ren/)
 - `2026-10-05` · [肉瘾](https://artithm.com/archives/shi-ji-shi-zhang-jia-hou-chi-bu-qi-le/)
 - `2026-09-26` · [养一只爱你的猫](https://artithm.com/archives/yang-yi-zhi-ai-ni-de-mi/)
 - `2026-09-14` · [逼活干得应激了](https://artithm.com/archives/cao-ta-ma-de-lei-si-lao-zi-le/)

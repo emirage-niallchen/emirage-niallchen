@@ -67,10 +67,6 @@
   <img src="./github-metrics.svg" alt="GitHub 详细贡献与社区活动" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=emirage-niallchen&amp;hide_border=true&amp;background=171416&amp;ring=D6AE71&amp;fire=C65B62&amp;currStreakNum=F2E8DC&amp;sideNums=F2E8DC&amp;currStreakLabel=D6AE71&amp;sideLabels=C8B9B1&amp;dates=9F8C86&amp;stroke=34272D" alt="GitHub 连续提交记录" />
-</p>
-
 </details>
 
 ## 04 / 足迹

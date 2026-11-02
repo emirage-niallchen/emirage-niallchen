@@ -19,7 +19,7 @@
 <a href="https://artithm.com/"><img src="./profile/blog-badge.svg" height="28" alt="Artithm 的个人头像与博客入口" /></a>
 <a href="https://artithm.com/index.xml"><img src="./profile/rss-badge.svg" height="28" alt="订阅 Artithm RSS" /></a>
 
-### 两篇旧文
+### 文章选读
 
 **[关于建站与站点迁移](https://artithm.com/archives/guan-yu-zhan-dian-qian-yi/)**<br />
 从想写诗，到敲代码，再到给自己的文字找个住处。
@@ -29,7 +29,8 @@
 
 ### 最近写的
 
-<!-- BLOG-POST-LIST:START -->- `2026-10-07` · [幻人](https://artithm.com/archives/huan-ren/)
+<!-- BLOG-POST-LIST:START -->
+- `2026-10-07` · [幻人](https://artithm.com/archives/huan-ren/)
 - `2026-10-05` · [肉瘾](https://artithm.com/archives/shi-ji-shi-zhang-jia-hou-chi-bu-qi-le/)
 - `2026-09-26` · [养一只爱你的猫](https://artithm.com/archives/yang-yi-zhi-ai-ni-de-mi/)
 - `2026-09-14` · [逼活干得应激了](https://artithm.com/archives/cao-ta-ma-de-lei-si-lao-zi-le/)
@@ -54,7 +55,7 @@
 </p>
 
 <details>
-<summary>展开查看贡献、连续提交与 LeetCode</summary>
+<summary>更多统计</summary>
 
 <br />
 
@@ -64,11 +65,6 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=emirage-niallchen&amp;hide_border=true&amp;background=171416&amp;ring=D6AE71&amp;fire=C65B62&amp;currStreakNum=F2E8DC&amp;sideNums=F2E8DC&amp;currStreakLabel=D6AE71&amp;sideLabels=C8B9B1&amp;dates=9F8C86&amp;stroke=34272D" alt="GitHub 连续提交记录" />
-</p>
-
-<p align="center">
-  <img src="https://stats.artithm.com/api/leetcode?username=emirage&amp;theme=dark" alt="LeetCode 统计" />
-  <img src="https://stats.artithm.com/api/github?username=emirage-niallchen&amp;theme=dark" alt="Artithm 自建服务的 GitHub 统计" />
 </p>
 
 </details>

@@ -32,7 +32,8 @@ jobs:
         with:
           feed_list: "https://artithm.com/index.xml"
           max_post_count: "5"
-          template: '- `$date` · [$title]($url)$newline'
+          # Separate the first list item from the START comment for Markdown rendering.
+          template: '$newline- `$date` · [$title]($url)$newline'
           date_format: "yyyy-mm-dd"
           disable_sort: "false"
           sort_order: "desc"

@@ -22,6 +22,8 @@ jobs:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -30,6 +32,8 @@ jobs:
         with:
           feed_list: "https://artithm.com/index.xml"
           max_post_count: "5"
+          template: '- `$date` · [$title]($url)$newline'
+          date_format: "yyyy-mm-dd"
           disable_sort: "false"
           sort_order: "desc"
           retry_count: "3"

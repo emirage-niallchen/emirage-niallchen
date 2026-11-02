@@ -31,8 +31,8 @@ jobs:
           # The repository token can return an empty contribution calendar.
           github_token: ${{ secrets.METRICS_TOKEN || github.token }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#8F2938&color_dots=#EDE5DD,#E6BCB3,#D98B83,#BE525B,#8F2938
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#D6AE71&color_dots=#211A1E,#4B272F,#80343F,#BC505B,#E48B85
 
       - name: Check that both snakes move before publishing
         run: |

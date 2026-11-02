@@ -32,7 +32,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&theme=tokyonight
+          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&bg_color=171416&title_color=D6AE71&text_color=E5D9D0&icon_color=C65B62&ring_color=D6AE71&border_radius=8
           path: profile/stats.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
           fail_on_error: "true"
@@ -41,10 +41,27 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=tokyonight
+          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&layout=compact&langs_count=6&bg_color=171416&title_color=D6AE71&text_color=E5D9D0&border_radius=8
           path: profile/top-langs.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
           fail_on_error: "true"
+
+      - name: Align card heights
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          paths = [Path("profile/stats.svg"), Path("profile/top-langs.svg")]
+          height = max(int(ET.parse(path).getroot().get("height")) for path in paths)
+          for path in paths:
+              svg = path.read_text()
+              width = ET.fromstring(svg).get("width")
+              svg = re.sub(r'(<svg\b[^>]*\bheight=")[^"]+', rf'\g<1>{height}', svg, count=1)
+              svg = re.sub(r'(<svg\b[^>]*\bviewBox=")[^"]+', rf'\g<1>0 0 {width} {height}', svg, count=1)
+              path.write_text(svg)
+          PY
 
       - name: Commit updated cards
         env:

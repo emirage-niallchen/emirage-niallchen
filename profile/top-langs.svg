@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="135"
-        viewBox="0 0 300 135"
+        height="165"
+        viewBox="0 0 300 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #70a5fd;
+            fill: #D6AE71;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #E5D9D0;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #38bdae;
+      fill: #E5D9D0;
     }
     .stagger {
       opacity: 0;
@@ -97,11 +97,11 @@
           class="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="8"
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#1a1b27"
+          fill="#171416"
           stroke-opacity="0"
         />
 

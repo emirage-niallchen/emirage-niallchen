@@ -5,8 +5,8 @@
     <clipPath id="avatar"><rect x="4" y="3" width="22" height="22" rx="4"/></clipPath>
   </defs>
   <g clip-path="url(#badge)">
-    <path fill="#24283b" d="M0 0h108v28H0z"/>
-    <path fill="#7aa2f7" d="M108 0h40v28h-40z"/>
+    <path fill="#171416" d="M0 0h108v28H0z"/>
+    <path fill="#8F2938" d="M108 0h40v28h-40z"/>
   </g>
   <g clip-path="url(#avatar)">
     <svg x="4" y="3" width="22" height="22" viewBox="33 17 20 20" preserveAspectRatio="xMidYMid slice">
@@ -14,7 +14,7 @@
     </svg>
   </g>
   <g font-family="Verdana,DejaVu Sans,sans-serif" text-rendering="geometricPrecision">
-    <text x="35" y="18.5" fill="#c0caf5" font-size="13" font-weight="600">Artithm</text>
-    <text x="128" y="18.5" fill="#1a1b26" font-size="11" font-weight="600" text-anchor="middle">Blog</text>
+    <text x="35" y="18.5" fill="#F2E8DC" font-size="13" font-weight="600">Artithm</text>
+    <text x="128" y="18.5" fill="#F2E8DC" font-size="11" font-weight="600" text-anchor="middle">Blog</text>
   </g>
 </svg>
